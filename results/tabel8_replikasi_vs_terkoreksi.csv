@@ -1,0 +1,9 @@
+model,set_fitur,f1,fpr,evasion_sebelum,evasion_sesudah,adaptif_tanpa_adv,adaptif_adv_adaptif,f1_split_domain
+LightGBM,replikasi,0.9994,0.0012,0.0068,0.001,0.2092,0.0134,0.997
+LightGBM,terkoreksi,0.9995,0.0013,0.0062,0.0009,0.2001,0.0156,0.9982
+LogReg,replikasi,0.9974,0.002,0.1182,0.0045,1.0,0.0709,0.9959
+LogReg,terkoreksi,0.9961,0.0026,0.1613,0.0114,0.9996,0.9922,0.993
+RandomForest,replikasi,0.9995,0.0016,0.0071,0.0006,0.1505,0.0051,0.9958
+RandomForest,terkoreksi,0.9994,0.0017,0.005,0.0007,0.1392,0.005,0.9968
+XGBoost,replikasi,0.9996,0.0012,0.007,0.001,0.203,0.0212,0.9981
+XGBoost,terkoreksi,0.9996,0.0012,0.0068,0.001,0.1915,0.0157,0.9977

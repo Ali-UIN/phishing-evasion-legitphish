@@ -1,0 +1,5 @@
+model,f1_split_acak,f1_split_domain,fpr_split_acak,fpr_split_domain
+LogReg,0.9964,0.993,0.0023,0.0179
+RandomForest,0.9995,0.9968,0.0013,0.0101
+XGBoost,0.9996,0.9977,0.0009,0.0067
+LightGBM,0.9995,0.9982,0.0013,0.0053

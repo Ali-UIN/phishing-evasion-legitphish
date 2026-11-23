@@ -1,0 +1,11 @@
+,LogReg,RandomForest,XGBoost,LightGBM
+force_https + brand_subdomain,5247,0,16,19
+brand_subdomain + force_https,4191,0,5,9
+force_https + root_landing,1822,272,214,132
+force_https + mimic_legit_path,9,569,869,913
+mimic_legit_path + force_https,11,539,837,942
+brand_subdomain + root_landing,372,0,0,0
+root_landing + brand_subdomain,363,0,0,0
+brand_subdomain + mimic_legit_path,236,0,12,19
+mimic_legit_path + brand_subdomain,224,0,13,20
+mimic_legit_path + typosquat,0,40,91,85

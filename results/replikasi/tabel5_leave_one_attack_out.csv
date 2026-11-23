@@ -1,0 +1,10 @@
+teknik_disisihkan,evasion_tanpa_adv,evasion_loao
+force_https,0.0047,0.0013
+root_landing,0.0135,0.0061
+typosquat,0.0,0.0
+homoglyph,0.0,0.0001
+brand_subdomain,0.0,0.0
+at_trick,0.0,0.0
+strip_query,0.0006,0.0
+mimic_legit_path,0.0282,0.0204
+shortener,0.0004,0.0032

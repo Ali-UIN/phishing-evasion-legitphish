@@ -1,0 +1,13 @@
+model,kondisi,evasion_adaptif,median_skor_terbaik
+LightGBM,adv_acak,0.0613,1.0
+LightGBM,adv_adaptif,0.0156,1.0
+LightGBM,tanpa_adv,0.2001,0.9999
+LogReg,adv_acak,0.2841,0.8985
+LogReg,adv_adaptif,0.9922,0.1364
+LogReg,tanpa_adv,0.9996,0.0
+RandomForest,adv_acak,0.0468,1.0
+RandomForest,adv_adaptif,0.005,0.99
+RandomForest,tanpa_adv,0.1392,0.86
+XGBoost,adv_acak,0.061,0.9999
+XGBoost,adv_adaptif,0.0157,0.9999
+XGBoost,tanpa_adv,0.1915,0.989

@@ -1,0 +1,17 @@
+,sama_persis,spearman
+url_length,1.0,1.0
+has_ip_address,0.9998,0.9996
+dot_count,1.0,1.0
+https_flag,1.0,1.0
+url_entropy,1.0,1.0
+token_count,0.5162,0.9598
+subdomain_count,0.4713,-0.6489
+query_param_count,0.0061,0.7666
+tld_length,0.4694,-0.6256
+path_length,0.9871,0.9975
+has_hyphen_in_domain,0.9976,0.9722
+number_of_digits,1.0,1.0
+tld_popularity,0.9917,0.9815
+suspicious_file_extension,0.9998,0.9992
+domain_name_length,0.4724,0.8232
+percentage_numeric_chars,1.0,1.0

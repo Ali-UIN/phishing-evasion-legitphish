@@ -1,0 +1,13 @@
+model,kondisi,accuracy,precision,recall,f1,roc_auc,fpr
+LightGBM,adv_acak,0.9987,0.998,0.9999,0.9989,1.0,0.0035
+LightGBM,adv_adaptif,0.998,0.9968,1.0,0.9984,1.0,0.0055
+LightGBM,tanpa_adv,0.9994,0.9992,0.9998,0.9995,1.0,0.0013
+LogReg,adv_acak,0.9922,0.9911,0.9965,0.9938,0.9994,0.0151
+LogReg,adv_adaptif,0.989,0.9865,0.9962,0.9913,0.9991,0.0231
+LogReg,tanpa_adv,0.9955,0.9987,0.9943,0.9964,0.9994,0.0023
+RandomForest,adv_acak,0.9983,0.9973,1.0,0.9987,1.0,0.0045
+RandomForest,adv_adaptif,0.9973,0.9958,1.0,0.9979,0.9999,0.0072
+RandomForest,tanpa_adv,0.9994,0.9992,0.9998,0.9995,1.0,0.0013
+XGBoost,adv_acak,0.9985,0.9976,0.9999,0.9988,1.0,0.004
+XGBoost,adv_adaptif,0.9981,0.9971,0.9998,0.9985,1.0,0.0049
+XGBoost,tanpa_adv,0.9996,0.9994,0.9998,0.9996,1.0,0.0009

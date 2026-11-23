@@ -1,0 +1,11 @@
+,LogReg,RandomForest,XGBoost,LightGBM
+shortener,10774,154,7,3
+force_https + mimic_legit_path,455,588,1031,1003
+mimic_legit_path + force_https,433,508,949,1014
+force_https + root_landing,277,266,73,71
+mimic_legit_path,28,60,72,74
+mimic_legit_path + typosquat,20,48,72,81
+root_landing + mimic_legit_path,32,50,76,55
+strip_query + mimic_legit_path,23,52,55,63
+typosquat + mimic_legit_path,25,49,55,61
+mimic_legit_path + strip_query,29,41,54,58

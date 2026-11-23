@@ -1,0 +1,12 @@
+attack,LightGBM,LogReg,RandomForest,XGBoost
+at_trick,0.0,0.0012,0.0,0.0
+brand_subdomain,0.0,0.002,0.0,0.0
+combo,0.0032,0.0239,0.0017,0.0031
+force_https,0.0005,0.0018,0.0002,0.0005
+homoglyph,0.0,0.0,0.0,0.0
+mimic_legit_path,0.0053,0.0051,0.0031,0.0062
+root_landing,0.0009,0.0106,0.0006,0.0006
+shortener,0.0,0.0,0.0,0.0
+strip_query,0.0,0.0003,0.0,0.0
+typosquat,0.0,0.0,0.0,0.0001
+RATA-RATA,0.001,0.0045,0.0006,0.001

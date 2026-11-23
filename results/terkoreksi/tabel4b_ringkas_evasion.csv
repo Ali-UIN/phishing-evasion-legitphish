@@ -1,0 +1,5 @@
+model,sebelum,sesudah,penurunan
+LightGBM,0.0062,0.0009,0.0053
+LogReg,0.1613,0.0114,0.1499
+RandomForest,0.005,0.0007,0.0043
+XGBoost,0.0068,0.001,0.0058
