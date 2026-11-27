@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+revisi/cache/
+data/
+results/revisi_n*/
+figures/revisi_n*/

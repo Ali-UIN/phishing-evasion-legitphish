@@ -27,3 +27,12 @@ dataset belum memuat URL phishing yang sengaja disamarkan, dan uji ketahanan ter
 - Serangan hanya diterapkan pada URL phishing di test set; path legit untuk `mimic_legit_path` diambil dari data latih saja.
 - Penyerang adaptif: black-box berbasis kueri, mencoba 65 rantai penyamaran per URL dan memilih yang skor phishing-nya terendah.
 - Sudah dites end-to-end pada subsampel 12.000 URL asli untuk kedua set fitur; angka final harus dari run penuh.
+
+## Revisi (respons reviewer, November 2026)
+Folder `revisi/` berisi eksperimen tambahan untuk revisi naskah: kanonikalisasi URL (RFC 3986) sebelum deduplikasi,
+domain terdaftar dengan Mozilla Public Suffix List, tiga seed (42, 7, 2025) pada split acak dan split per domain,
+keluarga rantai yang disisihkan dari pelatihan, penyetelan ambang dan kalibrasi, anggaran kueri dan penyerang hard-label,
+tingkat kelayakan teknik, ablasi fitur, analisis galat false positive, teknik IDN homoglyph / open redirect / custom
+shortlink, pembanding n-gram karakter, dan uji lintas-dataset pada PhiUSIIL.
+Notebook dan modul di atas tidak diubah. Cara menjalankan ada di `revisi/README.md`; tabel hasil di `results/revisi/`,
+gambar di `figures/revisi/`.

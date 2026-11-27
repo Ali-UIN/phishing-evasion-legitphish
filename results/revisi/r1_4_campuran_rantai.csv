@@ -1,0 +1,521 @@
+set_fitur,model,rantai,porsi_mean,porsi_sd,n_seed
+replikasi,LightGBM,shortener,0.613417,0.0852761,3
+replikasi,LightGBM,force_https + mimic_legit_path,0.1444,0.0533488,3
+replikasi,LightGBM,mimic_legit_path + force_https,0.143433,0.0485839,3
+replikasi,LightGBM,force_https + root_landing,0.0435,0.0319356,3
+replikasi,LightGBM,force_https,0.0064,0.00600562,3
+replikasi,LightGBM,typosquat + mimic_legit_path,0.00576667,0.000464579,3
+replikasi,LightGBM,mimic_legit_path + typosquat,0.00565,0.000917878,3
+replikasi,LightGBM,root_landing + mimic_legit_path,0.00508333,2.88675e-05,3
+replikasi,LightGBM,strip_query + mimic_legit_path,0.00506667,0.000633114,3
+replikasi,LightGBM,mimic_legit_path + strip_query,0.00506667,0.000378594,3
+replikasi,LightGBM,mimic_legit_path,0.0049,0.000458258,3
+replikasi,LightGBM,homoglyph + mimic_legit_path,0.00351667,0.000464579,3
+replikasi,LightGBM,mimic_legit_path + homoglyph,0.00348333,0.000480451,3
+replikasi,LightGBM,force_https + brand_subdomain,0.00105,0.0004,3
+replikasi,LightGBM,brand_subdomain + mimic_legit_path,0.00103333,0.000375278,3
+replikasi,LightGBM,mimic_legit_path + at_trick,0.000916667,0.000292973,3
+replikasi,LightGBM,at_trick + mimic_legit_path,0.000816667,0.000152753,3
+replikasi,LightGBM,mimic_legit_path + brand_subdomain,0.000816667,0.000189297,3
+replikasi,LightGBM,force_https + at_trick,0.000716667,0.000592312,3
+replikasi,LightGBM,at_trick + force_https,0.000683333,0.000548483,3
+replikasi,LightGBM,brand_subdomain + force_https,0.000583333,0.000579511,3
+replikasi,LightGBM,root_landing + homoglyph,0.000533333,0.00092376,3
+replikasi,LightGBM,force_https + typosquat,0.000483333,0.000160728,3
+replikasi,LightGBM,homoglyph + root_landing,0.000483333,0.000837158,3
+replikasi,LightGBM,root_landing,0.0004,0.000390512,3
+replikasi,LightGBM,root_landing + typosquat,0.00035,0.000264575,3
+replikasi,LightGBM,root_landing + brand_subdomain,0.000316667,0.000548483,3
+replikasi,LightGBM,typosquat + force_https,0.000266667,0.000208167,3
+replikasi,LightGBM,typosquat + root_landing,0.0002,0.000132288,3
+replikasi,LightGBM,brand_subdomain + root_landing,0.000183333,0.000317543,3
+replikasi,LightGBM,force_https + homoglyph,0.000133333,0.000104083,3
+replikasi,LightGBM,force_https + strip_query,0.000133333,0.00011547,3
+replikasi,LightGBM,typosquat + strip_query,5e-05,5e-05,3
+replikasi,LightGBM,homoglyph + force_https,5e-05,5e-05,3
+replikasi,LightGBM,root_landing + at_trick,5e-05,8.66025e-05,3
+replikasi,LightGBM,homoglyph,1.66667e-05,2.88675e-05,3
+replikasi,LightGBM,typosquat + homoglyph,1.66667e-05,2.88675e-05,3
+replikasi,LightGBM,at_trick + root_landing,1.66667e-05,2.88675e-05,3
+replikasi,LightGBM,strip_query + typosquat,1.66667e-05,2.88675e-05,3
+replikasi,LightGBM,typosquat,0,0,3
+replikasi,LightGBM,brand_subdomain,0,0,3
+replikasi,LightGBM,at_trick,0,0,3
+replikasi,LightGBM,strip_query,0,0,3
+replikasi,LightGBM,root_landing + force_https,0,0,3
+replikasi,LightGBM,root_landing + strip_query,0,0,3
+replikasi,LightGBM,typosquat + brand_subdomain,0,0,3
+replikasi,LightGBM,typosquat + at_trick,0,0,3
+replikasi,LightGBM,homoglyph + typosquat,0,0,3
+replikasi,LightGBM,homoglyph + brand_subdomain,0,0,3
+replikasi,LightGBM,homoglyph + at_trick,0,0,3
+replikasi,LightGBM,homoglyph + strip_query,0,0,3
+replikasi,LightGBM,brand_subdomain + typosquat,0,0,3
+replikasi,LightGBM,brand_subdomain + homoglyph,0,0,3
+replikasi,LightGBM,brand_subdomain + at_trick,0,0,3
+replikasi,LightGBM,brand_subdomain + strip_query,0,0,3
+replikasi,LightGBM,at_trick + typosquat,0,0,3
+replikasi,LightGBM,at_trick + homoglyph,0,0,3
+replikasi,LightGBM,at_trick + brand_subdomain,0,0,3
+replikasi,LightGBM,at_trick + strip_query,0,0,3
+replikasi,LightGBM,strip_query + force_https,0,0,3
+replikasi,LightGBM,strip_query + root_landing,0,0,3
+replikasi,LightGBM,strip_query + homoglyph,0,0,3
+replikasi,LightGBM,strip_query + brand_subdomain,0,0,3
+replikasi,LightGBM,strip_query + at_trick,0,0,3
+replikasi,LightGBM,mimic_legit_path + root_landing,0,0,3
+replikasi,LogReg,shortener,0.841717,0.0257636,3
+replikasi,LogReg,force_https + mimic_legit_path,0.0351,0.0069536,3
+replikasi,LogReg,mimic_legit_path + force_https,0.0341167,0.00690006,3
+replikasi,LogReg,force_https + root_landing,0.0227167,0.00267877,3
+replikasi,LogReg,force_https + brand_subdomain,0.0126833,0.00717397,3
+replikasi,LogReg,brand_subdomain + force_https,0.0102,0.00521848,3
+replikasi,LogReg,brand_subdomain + mimic_legit_path,0.00656667,0.0015119,3
+replikasi,LogReg,mimic_legit_path + brand_subdomain,0.00565,0.00126787,3
+replikasi,LogReg,root_landing + brand_subdomain,0.00411667,0.00170098,3
+replikasi,LogReg,brand_subdomain + root_landing,0.00391667,0.00157824,3
+replikasi,LogReg,mimic_legit_path + typosquat,0.00211667,0.000800521,3
+replikasi,LogReg,typosquat + mimic_legit_path,0.00196667,0.000450925,3
+replikasi,LogReg,mimic_legit_path,0.00191667,0.000629153,3
+replikasi,LogReg,mimic_legit_path + strip_query,0.00186667,0.000671441,3
+replikasi,LogReg,root_landing + mimic_legit_path,0.00183333,0.000208167,3
+replikasi,LogReg,mimic_legit_path + at_trick,0.00175,0.000173205,3
+replikasi,LogReg,homoglyph + mimic_legit_path,0.0017,0.000776209,3
+replikasi,LogReg,at_trick + mimic_legit_path,0.00161667,0.000175594,3
+replikasi,LogReg,mimic_legit_path + homoglyph,0.0016,0.00072111,3
+replikasi,LogReg,strip_query + mimic_legit_path,0.00158333,0.000419325,3
+replikasi,LogReg,root_landing + at_trick,0.00138333,0.000907377,3
+replikasi,LogReg,at_trick + root_landing,0.000933333,0.00040104,3
+replikasi,LogReg,force_https + at_trick,0.000733333,0.000208167,3
+replikasi,LogReg,at_trick + force_https,0.00055,0.00031225,3
+replikasi,LogReg,brand_subdomain + strip_query,0.0003,0.000217945,3
+replikasi,LogReg,typosquat + brand_subdomain,0.000266667,0.000160728,3
+replikasi,LogReg,strip_query + brand_subdomain,0.0002,0.000132288,3
+replikasi,LogReg,brand_subdomain,0.000183333,2.88675e-05,3
+replikasi,LogReg,brand_subdomain + typosquat,0.000133333,5.7735e-05,3
+replikasi,LogReg,force_https,0.000116667,0.000202073,3
+replikasi,LogReg,homoglyph + brand_subdomain,8.33333e-05,7.63763e-05,3
+replikasi,LogReg,strip_query + at_trick,8.33333e-05,0.000104083,3
+replikasi,LogReg,at_trick + brand_subdomain,6.66667e-05,2.88675e-05,3
+replikasi,LogReg,force_https + typosquat,5e-05,5e-05,3
+replikasi,LogReg,brand_subdomain + at_trick,5e-05,5e-05,3
+replikasi,LogReg,at_trick + strip_query,3.33333e-05,2.88675e-05,3
+replikasi,LogReg,at_trick,1.66667e-05,2.88675e-05,3
+replikasi,LogReg,typosquat + force_https,1.66667e-05,2.88675e-05,3
+replikasi,LogReg,typosquat + at_trick,1.66667e-05,2.88675e-05,3
+replikasi,LogReg,typosquat + strip_query,1.66667e-05,2.88675e-05,3
+replikasi,LogReg,homoglyph + at_trick,1.66667e-05,2.88675e-05,3
+replikasi,LogReg,brand_subdomain + homoglyph,1.66667e-05,2.88675e-05,3
+replikasi,LogReg,root_landing,0,0,3
+replikasi,LogReg,typosquat,0,0,3
+replikasi,LogReg,homoglyph,0,0,3
+replikasi,LogReg,strip_query,0,0,3
+replikasi,LogReg,force_https + homoglyph,0,0,3
+replikasi,LogReg,force_https + strip_query,0,0,3
+replikasi,LogReg,root_landing + force_https,0,0,3
+replikasi,LogReg,root_landing + typosquat,0,0,3
+replikasi,LogReg,root_landing + homoglyph,0,0,3
+replikasi,LogReg,root_landing + strip_query,0,0,3
+replikasi,LogReg,typosquat + root_landing,0,0,3
+replikasi,LogReg,typosquat + homoglyph,0,0,3
+replikasi,LogReg,homoglyph + force_https,0,0,3
+replikasi,LogReg,homoglyph + root_landing,0,0,3
+replikasi,LogReg,homoglyph + typosquat,0,0,3
+replikasi,LogReg,homoglyph + strip_query,0,0,3
+replikasi,LogReg,at_trick + typosquat,0,0,3
+replikasi,LogReg,at_trick + homoglyph,0,0,3
+replikasi,LogReg,strip_query + force_https,0,0,3
+replikasi,LogReg,strip_query + root_landing,0,0,3
+replikasi,LogReg,strip_query + typosquat,0,0,3
+replikasi,LogReg,strip_query + homoglyph,0,0,3
+replikasi,LogReg,mimic_legit_path + root_landing,0,0,3
+replikasi,RandomForest,shortener,0.60255,0.0438688,3
+replikasi,RandomForest,force_https + mimic_legit_path,0.11145,0.0126678,3
+replikasi,RandomForest,mimic_legit_path + force_https,0.11055,0.0117461,3
+replikasi,RandomForest,force_https + root_landing,0.0944667,0.0439514,3
+replikasi,RandomForest,force_https + brand_subdomain,0.0169333,0.0135798,3
+replikasi,RandomForest,brand_subdomain + force_https,0.01055,0.00768977,3
+replikasi,RandomForest,root_landing + mimic_legit_path,0.00528333,0.000152753,3
+replikasi,RandomForest,strip_query + mimic_legit_path,0.0052,0.000522015,3
+replikasi,RandomForest,mimic_legit_path,0.00505,0.000217945,3
+replikasi,RandomForest,typosquat + mimic_legit_path,0.00501667,0.000700595,3
+replikasi,RandomForest,mimic_legit_path + typosquat,0.00478333,0.000602771,3
+replikasi,RandomForest,mimic_legit_path + strip_query,0.00465,0.000264575,3
+replikasi,RandomForest,force_https + at_trick,0.00305,0.00311809,3
+replikasi,RandomForest,mimic_legit_path + homoglyph,0.00291667,7.63763e-05,3
+replikasi,RandomForest,homoglyph + mimic_legit_path,0.00276667,0.000416333,3
+replikasi,RandomForest,brand_subdomain + mimic_legit_path,0.00188333,0.00134753,3
+replikasi,RandomForest,mimic_legit_path + brand_subdomain,0.0016,0.00123187,3
+replikasi,RandomForest,at_trick + force_https,0.00141667,0.000954376,3
+replikasi,RandomForest,at_trick + mimic_legit_path,0.00131667,0.00138233,3
+replikasi,RandomForest,root_landing,0.00121667,0.000633114,3
+replikasi,RandomForest,mimic_legit_path + at_trick,0.0011,0.00112694,3
+replikasi,RandomForest,brand_subdomain + root_landing,0.001,0.00168893,3
+replikasi,RandomForest,root_landing + at_trick,0.0009,0.00155885,3
+replikasi,RandomForest,root_landing + typosquat,0.000883333,0.000189297,3
+replikasi,RandomForest,typosquat + root_landing,0.000883333,0.000189297,3
+replikasi,RandomForest,root_landing + brand_subdomain,0.000833333,0.00135677,3
+replikasi,RandomForest,force_https,0.000716667,0.000500833,3
+replikasi,RandomForest,force_https + typosquat,0.00035,0.00015,3
+replikasi,RandomForest,at_trick + root_landing,0.000233333,0.000361709,3
+replikasi,RandomForest,force_https + homoglyph,0.000133333,7.63763e-05,3
+replikasi,RandomForest,typosquat + force_https,0.000116667,7.63763e-05,3
+replikasi,RandomForest,force_https + strip_query,8.33333e-05,0.000144338,3
+replikasi,RandomForest,homoglyph + force_https,3.33333e-05,2.88675e-05,3
+replikasi,RandomForest,strip_query + brand_subdomain,3.33333e-05,5.7735e-05,3
+replikasi,RandomForest,brand_subdomain,1.66667e-05,2.88675e-05,3
+replikasi,RandomForest,homoglyph + brand_subdomain,1.66667e-05,2.88675e-05,3
+replikasi,RandomForest,brand_subdomain + at_trick,1.66667e-05,2.88675e-05,3
+replikasi,RandomForest,typosquat,0,0,3
+replikasi,RandomForest,homoglyph,0,0,3
+replikasi,RandomForest,at_trick,0,0,3
+replikasi,RandomForest,strip_query,0,0,3
+replikasi,RandomForest,root_landing + force_https,0,0,3
+replikasi,RandomForest,root_landing + homoglyph,0,0,3
+replikasi,RandomForest,root_landing + strip_query,0,0,3
+replikasi,RandomForest,typosquat + homoglyph,0,0,3
+replikasi,RandomForest,typosquat + brand_subdomain,0,0,3
+replikasi,RandomForest,typosquat + at_trick,0,0,3
+replikasi,RandomForest,typosquat + strip_query,0,0,3
+replikasi,RandomForest,homoglyph + root_landing,0,0,3
+replikasi,RandomForest,homoglyph + typosquat,0,0,3
+replikasi,RandomForest,homoglyph + at_trick,0,0,3
+replikasi,RandomForest,homoglyph + strip_query,0,0,3
+replikasi,RandomForest,brand_subdomain + typosquat,0,0,3
+replikasi,RandomForest,brand_subdomain + homoglyph,0,0,3
+replikasi,RandomForest,brand_subdomain + strip_query,0,0,3
+replikasi,RandomForest,at_trick + typosquat,0,0,3
+replikasi,RandomForest,at_trick + homoglyph,0,0,3
+replikasi,RandomForest,at_trick + brand_subdomain,0,0,3
+replikasi,RandomForest,at_trick + strip_query,0,0,3
+replikasi,RandomForest,strip_query + force_https,0,0,3
+replikasi,RandomForest,strip_query + root_landing,0,0,3
+replikasi,RandomForest,strip_query + typosquat,0,0,3
+replikasi,RandomForest,strip_query + homoglyph,0,0,3
+replikasi,RandomForest,strip_query + at_trick,0,0,3
+replikasi,RandomForest,mimic_legit_path + root_landing,0,0,3
+replikasi,XGBoost,shortener,0.647317,0.0995998,3
+replikasi,XGBoost,force_https + mimic_legit_path,0.137983,0.056657,3
+replikasi,XGBoost,mimic_legit_path + force_https,0.1354,0.0522821,3
+replikasi,XGBoost,force_https + root_landing,0.0325,0.021894,3
+replikasi,XGBoost,mimic_legit_path + typosquat,0.00581667,0.00071122,3
+replikasi,XGBoost,typosquat + mimic_legit_path,0.00578333,0.000960902,3
+replikasi,XGBoost,mimic_legit_path,0.0054,0.000661438,3
+replikasi,XGBoost,root_landing + mimic_legit_path,0.00533333,0.000225462,3
+replikasi,XGBoost,mimic_legit_path + strip_query,0.00515,0.000264575,3
+replikasi,XGBoost,strip_query + mimic_legit_path,0.005,0.000396863,3
+replikasi,XGBoost,homoglyph + mimic_legit_path,0.00295,0.000229129,3
+replikasi,XGBoost,mimic_legit_path + homoglyph,0.00295,0.000180278,3
+replikasi,XGBoost,force_https,0.00138333,5.7735e-05,3
+replikasi,XGBoost,brand_subdomain + mimic_legit_path,0.00108333,0.000225462,3
+replikasi,XGBoost,force_https + brand_subdomain,0.00105,0.000998749,3
+replikasi,XGBoost,mimic_legit_path + brand_subdomain,0.000966667,0.00023094,3
+replikasi,XGBoost,mimic_legit_path + at_trick,0.000766667,7.63763e-05,3
+replikasi,XGBoost,at_trick + mimic_legit_path,0.000733333,0.000125831,3
+replikasi,XGBoost,force_https + at_trick,0.000616667,0.00063705,3
+replikasi,XGBoost,brand_subdomain + force_https,0.0006,0.0004,3
+replikasi,XGBoost,force_https + typosquat,0.000316667,0.00011547,3
+replikasi,XGBoost,at_trick + force_https,0.0003,0.00034641,3
+replikasi,XGBoost,root_landing,0.000133333,0.000189297,3
+replikasi,XGBoost,force_https + strip_query,0.000133333,7.63763e-05,3
+replikasi,XGBoost,typosquat + force_https,0.000116667,5.7735e-05,3
+replikasi,XGBoost,force_https + homoglyph,0.0001,5e-05,3
+replikasi,XGBoost,root_landing + typosquat,6.66667e-05,5.7735e-05,3
+replikasi,XGBoost,homoglyph + force_https,3.33333e-05,2.88675e-05,3
+replikasi,XGBoost,typosquat + root_landing,1.66667e-05,2.88675e-05,3
+replikasi,XGBoost,typosquat,0,0,3
+replikasi,XGBoost,homoglyph,0,0,3
+replikasi,XGBoost,brand_subdomain,0,0,3
+replikasi,XGBoost,at_trick,0,0,3
+replikasi,XGBoost,strip_query,0,0,3
+replikasi,XGBoost,root_landing + force_https,0,0,3
+replikasi,XGBoost,root_landing + homoglyph,0,0,3
+replikasi,XGBoost,root_landing + brand_subdomain,0,0,3
+replikasi,XGBoost,root_landing + at_trick,0,0,3
+replikasi,XGBoost,root_landing + strip_query,0,0,3
+replikasi,XGBoost,typosquat + homoglyph,0,0,3
+replikasi,XGBoost,typosquat + brand_subdomain,0,0,3
+replikasi,XGBoost,typosquat + at_trick,0,0,3
+replikasi,XGBoost,typosquat + strip_query,0,0,3
+replikasi,XGBoost,homoglyph + root_landing,0,0,3
+replikasi,XGBoost,homoglyph + typosquat,0,0,3
+replikasi,XGBoost,homoglyph + brand_subdomain,0,0,3
+replikasi,XGBoost,homoglyph + at_trick,0,0,3
+replikasi,XGBoost,homoglyph + strip_query,0,0,3
+replikasi,XGBoost,brand_subdomain + root_landing,0,0,3
+replikasi,XGBoost,brand_subdomain + typosquat,0,0,3
+replikasi,XGBoost,brand_subdomain + homoglyph,0,0,3
+replikasi,XGBoost,brand_subdomain + at_trick,0,0,3
+replikasi,XGBoost,brand_subdomain + strip_query,0,0,3
+replikasi,XGBoost,at_trick + root_landing,0,0,3
+replikasi,XGBoost,at_trick + typosquat,0,0,3
+replikasi,XGBoost,at_trick + homoglyph,0,0,3
+replikasi,XGBoost,at_trick + brand_subdomain,0,0,3
+replikasi,XGBoost,at_trick + strip_query,0,0,3
+replikasi,XGBoost,strip_query + force_https,0,0,3
+replikasi,XGBoost,strip_query + root_landing,0,0,3
+replikasi,XGBoost,strip_query + typosquat,0,0,3
+replikasi,XGBoost,strip_query + homoglyph,0,0,3
+replikasi,XGBoost,strip_query + brand_subdomain,0,0,3
+replikasi,XGBoost,strip_query + at_trick,0,0,3
+replikasi,XGBoost,mimic_legit_path + root_landing,0,0,3
+terkoreksi,LightGBM,shortener,0.590317,0.093522,3
+terkoreksi,LightGBM,force_https + mimic_legit_path,0.1429,0.06365,3
+terkoreksi,LightGBM,mimic_legit_path + force_https,0.139817,0.0573148,3
+terkoreksi,LightGBM,force_https + root_landing,0.06005,0.0278072,3
+terkoreksi,LightGBM,force_https + brand_subdomain,0.00886667,0.00954782,3
+terkoreksi,LightGBM,brand_subdomain + force_https,0.00681667,0.00824171,3
+terkoreksi,LightGBM,typosquat + mimic_legit_path,0.00595,0.000492443,3
+terkoreksi,LightGBM,root_landing + mimic_legit_path,0.0055,0.000180278,3
+terkoreksi,LightGBM,mimic_legit_path + typosquat,0.0054,0.000229129,3
+terkoreksi,LightGBM,mimic_legit_path,0.00506667,0.000671441,3
+terkoreksi,LightGBM,mimic_legit_path + strip_query,0.00498333,0.000700595,3
+terkoreksi,LightGBM,strip_query + mimic_legit_path,0.00491667,0.000548483,3
+terkoreksi,LightGBM,force_https,0.00311667,0.00248613,3
+terkoreksi,LightGBM,mimic_legit_path + homoglyph,0.00296667,0.000510718,3
+terkoreksi,LightGBM,homoglyph + mimic_legit_path,0.00271667,0.000160728,3
+terkoreksi,LightGBM,brand_subdomain + mimic_legit_path,0.00158333,7.63763e-05,3
+terkoreksi,LightGBM,mimic_legit_path + brand_subdomain,0.00133333,0.000202073,3
+terkoreksi,LightGBM,at_trick + force_https,0.00116667,0.00110943,3
+terkoreksi,LightGBM,force_https + at_trick,0.000966667,0.000575181,3
+terkoreksi,LightGBM,mimic_legit_path + at_trick,0.0009,0.000180278,3
+terkoreksi,LightGBM,force_https + typosquat,0.0008,8.66025e-05,3
+terkoreksi,LightGBM,at_trick + mimic_legit_path,0.000733333,0.000275379,3
+terkoreksi,LightGBM,typosquat + root_landing,0.000683333,0.000275379,3
+terkoreksi,LightGBM,root_landing,0.00065,0.000626498,3
+terkoreksi,LightGBM,root_landing + typosquat,0.000633333,0.000208167,3
+terkoreksi,LightGBM,typosquat + force_https,0.0004,0.000217945,3
+terkoreksi,LightGBM,force_https + homoglyph,0.00015,8.66025e-05,3
+terkoreksi,LightGBM,homoglyph + force_https,0.0001,5e-05,3
+terkoreksi,LightGBM,force_https + strip_query,0.0001,5e-05,3
+terkoreksi,LightGBM,typosquat + strip_query,6.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,at_trick + root_landing,5e-05,5e-05,3
+terkoreksi,LightGBM,strip_query + typosquat,5e-05,8.66025e-05,3
+terkoreksi,LightGBM,brand_subdomain + root_landing,3.33333e-05,2.88675e-05,3
+terkoreksi,LightGBM,brand_subdomain + at_trick,3.33333e-05,5.7735e-05,3
+terkoreksi,LightGBM,brand_subdomain + strip_query,3.33333e-05,5.7735e-05,3
+terkoreksi,LightGBM,at_trick + strip_query,3.33333e-05,2.88675e-05,3
+terkoreksi,LightGBM,brand_subdomain,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,strip_query,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,root_landing + homoglyph,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,root_landing + brand_subdomain,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,typosquat + brand_subdomain,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,homoglyph + typosquat,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,strip_query + at_trick,1.66667e-05,2.88675e-05,3
+terkoreksi,LightGBM,typosquat,0,0,3
+terkoreksi,LightGBM,homoglyph,0,0,3
+terkoreksi,LightGBM,at_trick,0,0,3
+terkoreksi,LightGBM,root_landing + force_https,0,0,3
+terkoreksi,LightGBM,root_landing + at_trick,0,0,3
+terkoreksi,LightGBM,root_landing + strip_query,0,0,3
+terkoreksi,LightGBM,typosquat + homoglyph,0,0,3
+terkoreksi,LightGBM,typosquat + at_trick,0,0,3
+terkoreksi,LightGBM,homoglyph + root_landing,0,0,3
+terkoreksi,LightGBM,homoglyph + brand_subdomain,0,0,3
+terkoreksi,LightGBM,homoglyph + at_trick,0,0,3
+terkoreksi,LightGBM,homoglyph + strip_query,0,0,3
+terkoreksi,LightGBM,brand_subdomain + typosquat,0,0,3
+terkoreksi,LightGBM,brand_subdomain + homoglyph,0,0,3
+terkoreksi,LightGBM,at_trick + typosquat,0,0,3
+terkoreksi,LightGBM,at_trick + homoglyph,0,0,3
+terkoreksi,LightGBM,at_trick + brand_subdomain,0,0,3
+terkoreksi,LightGBM,strip_query + force_https,0,0,3
+terkoreksi,LightGBM,strip_query + root_landing,0,0,3
+terkoreksi,LightGBM,strip_query + homoglyph,0,0,3
+terkoreksi,LightGBM,strip_query + brand_subdomain,0,0,3
+terkoreksi,LightGBM,mimic_legit_path + root_landing,0,0,3
+terkoreksi,LogReg,force_https + brand_subdomain,0.391167,0.0146,3
+terkoreksi,LogReg,brand_subdomain + force_https,0.31165,0.0138328,3
+terkoreksi,LogReg,force_https + root_landing,0.12,0.0150928,3
+terkoreksi,LogReg,root_landing + brand_subdomain,0.0567333,0.0135278,3
+terkoreksi,LogReg,brand_subdomain + root_landing,0.0467,0.00997259,3
+terkoreksi,LogReg,brand_subdomain + mimic_legit_path,0.02715,0.00937563,3
+terkoreksi,LogReg,mimic_legit_path + brand_subdomain,0.02575,0.0089,3
+terkoreksi,LogReg,shortener,0.01045,0.00316188,3
+terkoreksi,LogReg,brand_subdomain,0.00148333,0.000534634,3
+terkoreksi,LogReg,brand_subdomain + strip_query,0.00143333,0.000503322,3
+terkoreksi,LogReg,brand_subdomain + typosquat,0.0014,0.000781025,3
+terkoreksi,LogReg,typosquat + brand_subdomain,0.00135,0.000912414,3
+terkoreksi,LogReg,strip_query + brand_subdomain,0.00118333,0.000416333,3
+terkoreksi,LogReg,brand_subdomain + homoglyph,0.000816667,0.000520416,3
+terkoreksi,LogReg,force_https + mimic_legit_path,0.00075,0.000694622,3
+terkoreksi,LogReg,at_trick + brand_subdomain,0.000733333,0.000534634,3
+terkoreksi,LogReg,mimic_legit_path + force_https,0.000583333,0.000425245,3
+terkoreksi,LogReg,homoglyph + brand_subdomain,0.000583333,0.000236291,3
+terkoreksi,LogReg,root_landing + typosquat,3.33333e-05,2.88675e-05,3
+terkoreksi,LogReg,root_landing,1.66667e-05,2.88675e-05,3
+terkoreksi,LogReg,force_https + strip_query,1.66667e-05,2.88675e-05,3
+terkoreksi,LogReg,root_landing + force_https,1.66667e-05,2.88675e-05,3
+terkoreksi,LogReg,force_https,0,0,3
+terkoreksi,LogReg,typosquat,0,0,3
+terkoreksi,LogReg,homoglyph,0,0,3
+terkoreksi,LogReg,at_trick,0,0,3
+terkoreksi,LogReg,strip_query,0,0,3
+terkoreksi,LogReg,mimic_legit_path,0,0,3
+terkoreksi,LogReg,force_https + typosquat,0,0,3
+terkoreksi,LogReg,force_https + homoglyph,0,0,3
+terkoreksi,LogReg,force_https + at_trick,0,0,3
+terkoreksi,LogReg,root_landing + homoglyph,0,0,3
+terkoreksi,LogReg,root_landing + at_trick,0,0,3
+terkoreksi,LogReg,root_landing + strip_query,0,0,3
+terkoreksi,LogReg,root_landing + mimic_legit_path,0,0,3
+terkoreksi,LogReg,typosquat + force_https,0,0,3
+terkoreksi,LogReg,typosquat + root_landing,0,0,3
+terkoreksi,LogReg,typosquat + homoglyph,0,0,3
+terkoreksi,LogReg,typosquat + at_trick,0,0,3
+terkoreksi,LogReg,typosquat + strip_query,0,0,3
+terkoreksi,LogReg,typosquat + mimic_legit_path,0,0,3
+terkoreksi,LogReg,homoglyph + force_https,0,0,3
+terkoreksi,LogReg,homoglyph + root_landing,0,0,3
+terkoreksi,LogReg,homoglyph + typosquat,0,0,3
+terkoreksi,LogReg,homoglyph + at_trick,0,0,3
+terkoreksi,LogReg,homoglyph + strip_query,0,0,3
+terkoreksi,LogReg,homoglyph + mimic_legit_path,0,0,3
+terkoreksi,LogReg,brand_subdomain + at_trick,0,0,3
+terkoreksi,LogReg,at_trick + force_https,0,0,3
+terkoreksi,LogReg,at_trick + root_landing,0,0,3
+terkoreksi,LogReg,at_trick + typosquat,0,0,3
+terkoreksi,LogReg,at_trick + homoglyph,0,0,3
+terkoreksi,LogReg,at_trick + strip_query,0,0,3
+terkoreksi,LogReg,at_trick + mimic_legit_path,0,0,3
+terkoreksi,LogReg,strip_query + force_https,0,0,3
+terkoreksi,LogReg,strip_query + root_landing,0,0,3
+terkoreksi,LogReg,strip_query + typosquat,0,0,3
+terkoreksi,LogReg,strip_query + homoglyph,0,0,3
+terkoreksi,LogReg,strip_query + at_trick,0,0,3
+terkoreksi,LogReg,strip_query + mimic_legit_path,0,0,3
+terkoreksi,LogReg,mimic_legit_path + root_landing,0,0,3
+terkoreksi,LogReg,mimic_legit_path + typosquat,0,0,3
+terkoreksi,LogReg,mimic_legit_path + homoglyph,0,0,3
+terkoreksi,LogReg,mimic_legit_path + at_trick,0,0,3
+terkoreksi,LogReg,mimic_legit_path + strip_query,0,0,3
+terkoreksi,RandomForest,shortener,0.625017,0.0289051,3
+terkoreksi,RandomForest,force_https + mimic_legit_path,0.0965167,0.00718929,3
+terkoreksi,RandomForest,mimic_legit_path + force_https,0.0949,0.00497896,3
+terkoreksi,RandomForest,force_https + root_landing,0.0850167,0.0104577,3
+terkoreksi,RandomForest,force_https + brand_subdomain,0.0304167,0.0169309,3
+terkoreksi,RandomForest,brand_subdomain + force_https,0.0192333,0.0110913,3
+terkoreksi,RandomForest,typosquat + mimic_legit_path,0.00521667,0.000404145,3
+terkoreksi,RandomForest,mimic_legit_path + typosquat,0.00503333,0.000575181,3
+terkoreksi,RandomForest,mimic_legit_path,0.00493333,0.000548483,3
+terkoreksi,RandomForest,root_landing + mimic_legit_path,0.00481667,0.000660177,3
+terkoreksi,RandomForest,strip_query + mimic_legit_path,0.00451667,0.000152753,3
+terkoreksi,RandomForest,mimic_legit_path + strip_query,0.00445,0.000390512,3
+terkoreksi,RandomForest,brand_subdomain + mimic_legit_path,0.00338333,0.000340343,3
+terkoreksi,RandomForest,mimic_legit_path + homoglyph,0.00313333,0.000436845,3
+terkoreksi,RandomForest,homoglyph + mimic_legit_path,0.00306667,0.000104083,3
+terkoreksi,RandomForest,mimic_legit_path + brand_subdomain,0.0029,0.000867468,3
+terkoreksi,RandomForest,root_landing + typosquat,0.00126667,0.000275379,3
+terkoreksi,RandomForest,typosquat + root_landing,0.00115,0.000396863,3
+terkoreksi,RandomForest,root_landing,0.00106667,0.000202073,3
+terkoreksi,RandomForest,force_https + at_trick,0.000933333,0.0012741,3
+terkoreksi,RandomForest,force_https,0.000666667,0.00032532,3
+terkoreksi,RandomForest,force_https + typosquat,0.00045,5e-05,3
+terkoreksi,RandomForest,brand_subdomain + at_trick,0.000433333,0.000321455,3
+terkoreksi,RandomForest,at_trick + force_https,0.000416667,0.000592312,3
+terkoreksi,RandomForest,mimic_legit_path + at_trick,0.000233333,0.000236291,3
+terkoreksi,RandomForest,at_trick + mimic_legit_path,0.000216667,0.000246644,3
+terkoreksi,RandomForest,force_https + homoglyph,0.0002,8.66025e-05,3
+terkoreksi,RandomForest,typosquat + force_https,0.00015,8.66025e-05,3
+terkoreksi,RandomForest,homoglyph + force_https,6.66667e-05,7.63763e-05,3
+terkoreksi,RandomForest,force_https + strip_query,5e-05,5e-05,3
+terkoreksi,RandomForest,homoglyph,3.33333e-05,2.88675e-05,3
+terkoreksi,RandomForest,root_landing + brand_subdomain,3.33333e-05,2.88675e-05,3
+terkoreksi,RandomForest,brand_subdomain,1.66667e-05,2.88675e-05,3
+terkoreksi,RandomForest,root_landing + at_trick,1.66667e-05,2.88675e-05,3
+terkoreksi,RandomForest,typosquat + homoglyph,1.66667e-05,2.88675e-05,3
+terkoreksi,RandomForest,brand_subdomain + root_landing,1.66667e-05,2.88675e-05,3
+terkoreksi,RandomForest,at_trick + root_landing,1.66667e-05,2.88675e-05,3
+terkoreksi,RandomForest,typosquat,0,0,3
+terkoreksi,RandomForest,at_trick,0,0,3
+terkoreksi,RandomForest,strip_query,0,0,3
+terkoreksi,RandomForest,root_landing + force_https,0,0,3
+terkoreksi,RandomForest,root_landing + homoglyph,0,0,3
+terkoreksi,RandomForest,root_landing + strip_query,0,0,3
+terkoreksi,RandomForest,typosquat + brand_subdomain,0,0,3
+terkoreksi,RandomForest,typosquat + at_trick,0,0,3
+terkoreksi,RandomForest,typosquat + strip_query,0,0,3
+terkoreksi,RandomForest,homoglyph + root_landing,0,0,3
+terkoreksi,RandomForest,homoglyph + typosquat,0,0,3
+terkoreksi,RandomForest,homoglyph + brand_subdomain,0,0,3
+terkoreksi,RandomForest,homoglyph + at_trick,0,0,3
+terkoreksi,RandomForest,homoglyph + strip_query,0,0,3
+terkoreksi,RandomForest,brand_subdomain + typosquat,0,0,3
+terkoreksi,RandomForest,brand_subdomain + homoglyph,0,0,3
+terkoreksi,RandomForest,brand_subdomain + strip_query,0,0,3
+terkoreksi,RandomForest,at_trick + typosquat,0,0,3
+terkoreksi,RandomForest,at_trick + homoglyph,0,0,3
+terkoreksi,RandomForest,at_trick + brand_subdomain,0,0,3
+terkoreksi,RandomForest,at_trick + strip_query,0,0,3
+terkoreksi,RandomForest,strip_query + force_https,0,0,3
+terkoreksi,RandomForest,strip_query + root_landing,0,0,3
+terkoreksi,RandomForest,strip_query + typosquat,0,0,3
+terkoreksi,RandomForest,strip_query + homoglyph,0,0,3
+terkoreksi,RandomForest,strip_query + brand_subdomain,0,0,3
+terkoreksi,RandomForest,strip_query + at_trick,0,0,3
+terkoreksi,RandomForest,mimic_legit_path + root_landing,0,0,3
+terkoreksi,XGBoost,shortener,0.651,0.131531,3
+terkoreksi,XGBoost,force_https + mimic_legit_path,0.1379,0.0633704,3
+terkoreksi,XGBoost,mimic_legit_path + force_https,0.1349,0.0590488,3
+terkoreksi,XGBoost,force_https + root_landing,0.0255667,0.00531374,3
+terkoreksi,XGBoost,typosquat + mimic_legit_path,0.00646667,0.000425245,3
+terkoreksi,XGBoost,mimic_legit_path + typosquat,0.00573333,0.000246644,3
+terkoreksi,XGBoost,mimic_legit_path + strip_query,0.00511667,0.000431084,3
+terkoreksi,XGBoost,mimic_legit_path,0.0051,0.000507445,3
+terkoreksi,XGBoost,root_landing + mimic_legit_path,0.00495,0.000229129,3
+terkoreksi,XGBoost,strip_query + mimic_legit_path,0.0048,0.000492443,3
+terkoreksi,XGBoost,force_https + brand_subdomain,0.00386667,0.00247605,3
+terkoreksi,XGBoost,homoglyph + mimic_legit_path,0.00248333,0.000321455,3
+terkoreksi,XGBoost,mimic_legit_path + homoglyph,0.00215,0.000522015,3
+terkoreksi,XGBoost,brand_subdomain + mimic_legit_path,0.00211667,0.000520416,3
+terkoreksi,XGBoost,brand_subdomain + force_https,0.0021,0.00119059,3
+terkoreksi,XGBoost,mimic_legit_path + brand_subdomain,0.00195,0.000390512,3
+terkoreksi,XGBoost,force_https,0.00075,0.00052915,3
+terkoreksi,XGBoost,mimic_legit_path + at_trick,0.000633333,0.000175594,3
+terkoreksi,XGBoost,force_https + typosquat,0.00055,0.000180278,3
+terkoreksi,XGBoost,at_trick + mimic_legit_path,0.000483333,0.000236291,3
+terkoreksi,XGBoost,typosquat + force_https,0.000283333,0.000104083,3
+terkoreksi,XGBoost,typosquat + root_landing,0.000216667,0.00011547,3
+terkoreksi,XGBoost,root_landing + typosquat,0.0002,5e-05,3
+terkoreksi,XGBoost,force_https + at_trick,0.00015,0.000180278,3
+terkoreksi,XGBoost,force_https + strip_query,0.000133333,0.00011547,3
+terkoreksi,XGBoost,homoglyph + force_https,0.0001,0.0001,3
+terkoreksi,XGBoost,force_https + homoglyph,8.33333e-05,5.7735e-05,3
+terkoreksi,XGBoost,root_landing,5e-05,5e-05,3
+terkoreksi,XGBoost,typosquat + strip_query,5e-05,0,3
+terkoreksi,XGBoost,at_trick + force_https,5e-05,8.66025e-05,3
+terkoreksi,XGBoost,brand_subdomain + at_trick,3.33333e-05,5.7735e-05,3
+terkoreksi,XGBoost,strip_query,1.66667e-05,2.88675e-05,3
+terkoreksi,XGBoost,strip_query + typosquat,1.66667e-05,2.88675e-05,3
+terkoreksi,XGBoost,typosquat,0,0,3
+terkoreksi,XGBoost,homoglyph,0,0,3
+terkoreksi,XGBoost,brand_subdomain,0,0,3
+terkoreksi,XGBoost,at_trick,0,0,3
+terkoreksi,XGBoost,root_landing + force_https,0,0,3
+terkoreksi,XGBoost,root_landing + homoglyph,0,0,3
+terkoreksi,XGBoost,root_landing + brand_subdomain,0,0,3
+terkoreksi,XGBoost,root_landing + at_trick,0,0,3
+terkoreksi,XGBoost,root_landing + strip_query,0,0,3
+terkoreksi,XGBoost,typosquat + homoglyph,0,0,3
+terkoreksi,XGBoost,typosquat + brand_subdomain,0,0,3
+terkoreksi,XGBoost,typosquat + at_trick,0,0,3
+terkoreksi,XGBoost,homoglyph + root_landing,0,0,3
+terkoreksi,XGBoost,homoglyph + typosquat,0,0,3
+terkoreksi,XGBoost,homoglyph + brand_subdomain,0,0,3
+terkoreksi,XGBoost,homoglyph + at_trick,0,0,3
+terkoreksi,XGBoost,homoglyph + strip_query,0,0,3
+terkoreksi,XGBoost,brand_subdomain + root_landing,0,0,3
+terkoreksi,XGBoost,brand_subdomain + typosquat,0,0,3
+terkoreksi,XGBoost,brand_subdomain + homoglyph,0,0,3
+terkoreksi,XGBoost,brand_subdomain + strip_query,0,0,3
+terkoreksi,XGBoost,at_trick + root_landing,0,0,3
+terkoreksi,XGBoost,at_trick + typosquat,0,0,3
+terkoreksi,XGBoost,at_trick + homoglyph,0,0,3
+terkoreksi,XGBoost,at_trick + brand_subdomain,0,0,3
+terkoreksi,XGBoost,at_trick + strip_query,0,0,3
+terkoreksi,XGBoost,strip_query + force_https,0,0,3
+terkoreksi,XGBoost,strip_query + root_landing,0,0,3
+terkoreksi,XGBoost,strip_query + homoglyph,0,0,3
+terkoreksi,XGBoost,strip_query + brand_subdomain,0,0,3
+terkoreksi,XGBoost,strip_query + at_trick,0,0,3
+terkoreksi,XGBoost,mimic_legit_path + root_landing,0,0,3
