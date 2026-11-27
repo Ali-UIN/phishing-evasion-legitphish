@@ -127,8 +127,9 @@ def gambar4(res, out):
 
 
 def gambar5(res, out):
-    t = pd.read_csv(f"{res}/tabel_shap_lightgbm_seed42.csv").set_index("fitur").sort_values("tanpa")
-    fig, ax = plt.subplots(figsize=(6.3, 5.6)); y = np.arange(len(t))
+    t = pd.read_csv(f"{res}/tabel_shap_lightgbm_seed42.csv").set_index("fitur")
+    t = t.loc[t[CONDS].max(axis=1).sort_values(ascending=False).index[:10]].sort_values("tanpa")  # 10 most important
+    fig, ax = plt.subplots(figsize=(6.3, 3.6)); y = np.arange(len(t))
     for i, (c, lab) in enumerate(zip(CONDS, CLAB)):
         ax.barh(y + (1 - i) * 0.27, t[c], height=0.25, color=C3[i], label=lab)
     ax.set_yticks(y, t.index); ax.set_xlabel("Rata-rata |nilai SHAP|"); ax.legend(loc="lower right", fontsize=8)
